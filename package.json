@@ -1,0 +1,23 @@
+{
+    "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "bs-test": "npx browserstack-node-sdk playwright test --config=./playwright.config.ts "
+
+  },
+  "devDependencies": {
+    "playwright-bdd": "^7.5.0",
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.23.1",
+    "eslint-plugin-playwright": "^0.10.0",
+    "playwright-lighthouse": "^2.2.2",
+    "winston": "^3.7.2",
+    "gmail-tester": "^1.3.8",
+    "browserstack-node-sdk": "latest"
+  }
+}
